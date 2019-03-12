@@ -19,6 +19,6 @@
     "select"
   ],
   "dependencies": {
-    "react-native-togglebox": "1.0.3"
+    "react-native-togglebox": "ssh://git@github.com:seanyusa/react-native-togglebox.git#sw-updates"
   }
 }
