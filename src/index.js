@@ -7,8 +7,7 @@ import styles from './styles.js'
 class TogglePicker extends Component {
   renderPicker = () => (
     <Picker
-      selectedValue={this.props.selectedValue}
-      onValueChange={this.props.onValueChange}
+      {...this.props}
       style={Platform.OS === 'ios' ? [styles.iosPicker, this.props.iosPickerStyle] : [styles.androidPicker, this.props.androidPickerStyle]}
     >
       {this.props.children}
@@ -43,6 +42,7 @@ class TogglePicker extends Component {
 }
 
 TogglePicker.propTypes = {
+  ...Picker.propTypes,
   androidBoxStyle: PropTypes.oneOfType([PropTypes.object, PropTypes.number]),
   androidPickerStyle: PropTypes.oneOfType([PropTypes.object, PropTypes.number]),
   androidPickerWrapperStyle: PropTypes.oneOfType([PropTypes.object, PropTypes.number]),
