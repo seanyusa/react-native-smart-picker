@@ -67,7 +67,7 @@ TogglePicker.defaultProps = {
   androidPickerWrapperStyle: {},
   androidBoxStyle: {},
   arrowColor: 'rgb(178, 178, 178)',
-  arrowDownType: 'keyboard-arrow-down',
+  arrowDownType: 'keyboard-arrow-right',
   arrowSize: 30,
   arrowUpType: 'keyboard-arrow-up',
   expanded: false,

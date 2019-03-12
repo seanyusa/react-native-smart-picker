@@ -2,9 +2,8 @@ import { StyleSheet } from 'react-native'
 
 const styles = StyleSheet.create({
   iosPicker: {
-    backgroundColor: 'rgba(178,181,189,0.1)',
     borderColor: 'rgb(178,181,189)',
-    borderTopWidth: 1,
+    borderTopWidth: StyleSheet.hairlineWidth,
     padding: 0,
   },
   androidBoxStyle: {
@@ -16,12 +15,12 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   androidPickerWrapper: {
-    borderBottomWidth: 1,
+    borderBottomWidth: StyleSheet.hairlineWidth,
     borderColor: 'rgb(178,181,189)'
   },
   toggleBox: {
     borderColor: 'rgb(178,181,189)',
-    borderBottomWidth: 1,
+    borderBottomWidth: StyleSheet.hairlineWidth,
   }
 });
 
