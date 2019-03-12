@@ -15,7 +15,14 @@ class TogglePicker extends Component {
   )
 
   renderIos = () => (
-    <ToggleBox label={this.props.label} value={this.props.value} style={StyleSheet.flatten([styles.toggleBox, this.props.iosBoxStyle])}>
+    <ToggleBox
+      arrowDownType={this.props.arrowDownType}
+      arrowUpType={this.props.arrowUpType}
+      label={this.props.label}
+      value={this.props.value}
+      style={StyleSheet.flatten([styles.toggleBox, this.props.iosBoxStyle])}
+      labelStyle={this.props.labelStyle}
+    >
       <View style={this.props.iosPickerWrapperStyle}>
         {this.renderPicker()}
       </View>
@@ -59,6 +66,7 @@ TogglePicker.propTypes = {
   selectedValue: PropTypes.any.isRequired,
   label: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired,
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  labelStyle: PropTypes.oneOfType([PropTypes.object, PropTypes.number]),
 }
 
 TogglePicker.defaultProps = {
@@ -67,7 +75,7 @@ TogglePicker.defaultProps = {
   androidPickerWrapperStyle: {},
   androidBoxStyle: {},
   arrowColor: 'rgb(178, 178, 178)',
-  arrowDownType: 'keyboard-arrow-right',
+  arrowDownType: 'keyboard-arrow-down',
   arrowSize: 30,
   arrowUpType: 'keyboard-arrow-up',
   expanded: false,
@@ -75,6 +83,7 @@ TogglePicker.defaultProps = {
   iosPickerStyle: {},
   iosPickerWrapperStyle: {},
   value: '',
+  labelStyle: {},
 }
 
 export default TogglePicker
