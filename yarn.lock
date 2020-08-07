@@ -364,9 +364,9 @@ react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.4.tgz#90f336a68c3a29a096a3d648ab80e87ec61482a2"
   integrity sha512-PVadd+WaUDOAciICm/J1waJaSvgq+4rHE/K70j0PFqKhkTBsPv/82UGQJNXAngz1fOQLLxI6z1sEDmJDQhCTAA==
 
-"react-native-togglebox@ssh://git@github.com:seanyusa/react-native-togglebox.git#sw-updates":
+"react-native-togglebox@https://github.com/seanyusa/react-native-togglebox.git#sw-updates":
   version "1.0.2"
-  resolved "ssh://git@github.com:seanyusa/react-native-togglebox.git#d1dbf22c492e51d4322b5390c2d027ef4c162261"
+  resolved "https://github.com/seanyusa/react-native-togglebox.git#d1dbf22c492e51d4322b5390c2d027ef4c162261"
   dependencies:
     prop-types "^15.5.10"
     react-native-vector-icons "6.4.0"
