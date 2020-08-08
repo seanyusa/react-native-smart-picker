@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { Text, View, Image, TouchableWithoutFeedback, Animated, Picker, Platform, StyleSheet } from 'react-native'
+import { Picker } from '@react-native-community/picker'
+import { Text, View, Image, TouchableWithoutFeedback, Animated, Platform, StyleSheet } from 'react-native'
 import ToggleBox from 'react-native-togglebox'
 import styles from './styles.js'
 
