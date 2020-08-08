@@ -12,13 +12,7 @@ React Native Smart Picker is easy wrapper for React Native Picker. Allows toggli
 ## Installation
 
 ```bash
-npm i react-native-smart-picker --save
-```
-
-or
-
-```bash
-yarn add react-native-smart-picker --save
+yarn add react-native-smart-picker @react-native-community/picker
 ```
 
 ## Use

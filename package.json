@@ -19,7 +19,6 @@
     "select"
   ],
   "dependencies": {
-    "@react-native-community/picker": "^1.6.6",
     "react-native-togglebox": "https://github.com/seanyusa/react-native-togglebox.git#sw-updates"
   }
 }
